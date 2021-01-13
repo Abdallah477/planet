@@ -7,14 +7,134 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+ 
+<ion-grid>
+  <ion-row>
+    <ion-col>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+      <ion-card tappable (click)="navPage('merkurius')"  >
+        <ion-card-header>
+         
+          <ion-card-title>Merkurius</ion-card-title>
+         
+        </ion-card-header>
+      
+        <ion-card-content>
+        Lite info
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('venus')">
+        <ion-card-header>
+          
+          <ion-card-title>Venus</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         Lite info
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('tellus')" >
+        <ion-card-header>
+          
+          <ion-card-title>Tellus</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         Liteinfo
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('mars')">
+        <ion-card-header>
+         
+          <ion-card-title>Mars</ion-card-title>
+         
+        </ion-card-header>
+      
+        <ion-card-content>
+        Lite info
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('jupiter')">
+        <ion-card-header>
+          
+          <ion-card-title>Jupiter</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         Lite info
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('saturnus')">
+        <ion-card-header>
+          
+          <ion-card-title>Saturnus</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         Liteinfo
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('uranus')">
+        <ion-card-header>
+         
+          <ion-card-title>Uranus</ion-card-title>
+         
+        </ion-card-header>
+      
+        <ion-card-content>
+        Lite info
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('neptunus')">
+        <ion-card-header>
+          
+          <ion-card-title>Neptunus</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         Lite info
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+
+      <ion-card tappable (click)="navPage('pluto')">
+        <ion-card-header>
+          
+          <ion-card-title>Pluto</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+         the blue
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
